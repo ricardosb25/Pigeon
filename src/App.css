@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-color: black;
+    background-image: url(../src/Image.png);
 }
 
 .App{
@@ -38,4 +38,11 @@ body{
 .AppVideos{
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+@media only screen and (max-width: 440px){
+    .AppVideos{
+        width: 100%;
+        height: 100vh;
+    }
 }
